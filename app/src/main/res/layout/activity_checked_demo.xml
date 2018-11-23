@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckedDemo">
+    <LinearLayout
+        android:id="@+id/lay"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:text="Java"
+            android:layout_marginStart="40dp"
+            android:button="@drawable/checkbox"
+            android:id="@+id/java"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_marginStart="40dp"
+            android:id="@+id/php"
+            android:text="PHP"
+            android:button="@drawable/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_marginStart="40dp"
+            android:id="@+id/android"
+            android:text="Android"
+            android:button="@drawable/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/click"
+        android:text="click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
